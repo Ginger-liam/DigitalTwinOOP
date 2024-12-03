@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigitalTwinOOP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b80f6a51886b3fddb10dd6c31261e9f65f52c07")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigitalTwinOOP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigitalTwinOOP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
