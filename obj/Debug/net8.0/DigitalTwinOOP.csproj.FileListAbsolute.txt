@@ -1,0 +1,14 @@
+c:\Users\liama\Projects\DigitalTwinOOP\bin\Debug\net8.0\DigitalTwinOOP.exe
+c:\Users\liama\Projects\DigitalTwinOOP\bin\Debug\net8.0\DigitalTwinOOP.deps.json
+c:\Users\liama\Projects\DigitalTwinOOP\bin\Debug\net8.0\DigitalTwinOOP.runtimeconfig.json
+c:\Users\liama\Projects\DigitalTwinOOP\bin\Debug\net8.0\DigitalTwinOOP.dll
+c:\Users\liama\Projects\DigitalTwinOOP\bin\Debug\net8.0\DigitalTwinOOP.pdb
+c:\Users\liama\Projects\DigitalTwinOOP\obj\Debug\net8.0\DigitalTwinOOP.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\liama\Projects\DigitalTwinOOP\obj\Debug\net8.0\DigitalTwinOOP.AssemblyInfoInputs.cache
+c:\Users\liama\Projects\DigitalTwinOOP\obj\Debug\net8.0\DigitalTwinOOP.AssemblyInfo.cs
+c:\Users\liama\Projects\DigitalTwinOOP\obj\Debug\net8.0\DigitalTwinOOP.csproj.CoreCompileInputs.cache
+c:\Users\liama\Projects\DigitalTwinOOP\obj\Debug\net8.0\DigitalTwinOOP.dll
+c:\Users\liama\Projects\DigitalTwinOOP\obj\Debug\net8.0\refint\DigitalTwinOOP.dll
+c:\Users\liama\Projects\DigitalTwinOOP\obj\Debug\net8.0\DigitalTwinOOP.pdb
+c:\Users\liama\Projects\DigitalTwinOOP\obj\Debug\net8.0\DigitalTwinOOP.genruntimeconfig.cache
+c:\Users\liama\Projects\DigitalTwinOOP\obj\Debug\net8.0\ref\DigitalTwinOOP.dll
