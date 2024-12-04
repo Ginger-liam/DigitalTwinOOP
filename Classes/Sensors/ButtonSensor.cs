@@ -1,15 +1,24 @@
-public class ButtonSensor : ISensor
+public class ButtonSensor : ISettableSensor
 {
   private int buttonPressed;
+  private int counter = 0;
+  private int runDuration;
 
-  public ButtonSensor()
+  public ButtonSensor(int runDuration)
   {
-    buttonPressed = new Random().Next(0, 2);
+    buttonPressed = 1;
+    this.runDuration = runDuration;
+  }
+
+  public void SetSensorValue(int value)
+  {
+    buttonPressed = value;
   }
 
   public int GetMeasurement()
   {
-    return buttonPressed;
+    counter++;
+    return buttonPressed = (counter > runDuration) ? 0 : 1;
   }
 
   public string GetMeasurementsAsString()

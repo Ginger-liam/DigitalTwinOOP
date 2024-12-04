@@ -1,10 +1,22 @@
-﻿BasicRobot basicRobot = new BasicRobot("Basic Robot");
+﻿var robot = new BasicRobot("BRUHBOT");
 
-basicRobot.AddSensor(new TempSensor());
-basicRobot.AddSensor(new LightSensor());
-basicRobot.AddSensor(new LightSensor());
-basicRobot.AddSensor(new ButtonSensor());
+robot.AddSensor(new MoistureSensor());
+robot.AddSensor(new DistanceSensor());
+robot.AddSensor(new ButtonSensor(10)); // Button sensor will be pressed for 10 seconds
 
-// basicRobot.SetSensorValue(50, "LightSensor");
+var retrievedMoistureSensor = robot.GetSensor<MoistureSensor>();
+var retrievedDistanceSensor = robot.GetSensor<DistanceSensor>();
+var retrievedButtonSensor = robot.GetSensor<ButtonSensor>();
 
-basicRobot.DisplaySensorValues();
+while (retrievedButtonSensor.GetMeasurement() == 1)
+{
+  if (retrievedDistanceSensor.GetMeasurement() < 1000)
+  {
+    robot.TurnRobot("left", 90);
+  }
+
+  robot.LogMeasurements();
+  robot.DisplayMeasurementLog();
+
+  Thread.Sleep(1000);
+}
